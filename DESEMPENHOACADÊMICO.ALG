@@ -1,4 +1,4 @@
-Algoritmo "DESEMPENHOACADÊMICO"
+Algoritmo "DESEMPENHOACADÃŠMICO"
 
 Var
   n1, n2, m : Real
@@ -6,7 +6,7 @@ Var
 
 Inicio
       EscrevaL("-----------------------")
-      Escreval(" DESEMPENHO ACADÊMICO  ")
+      Escreval(" DESEMPENHO ACADÃŠMICO  ")
       EscrevaL("-----------------------")
       EscrevaL("Primeira nota? ")
       Leia(n1)
@@ -14,7 +14,7 @@ Inicio
       Leia(n2)
       m <- (n1 + n2) /2
       EscrevaL("-----------------------")
-      EscrevaL("Sua média:", m)
+      EscrevaL("Sua mÃ©dia:", m:5:1)
       Se(m >= 9)entao
            Escreval("Aproveitamento (A)")
            EscrevaL("-----------------------")
